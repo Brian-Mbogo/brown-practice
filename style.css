@@ -1,0 +1,32 @@
+.nav-bar{
+    background-color: #d4c4b9;
+    padding: 10px;
+    text-align: right;
+}
+.footer-down{
+    background-color: #d4c4b9;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.hero-section{
+    position: relative;
+      display: inline-table;
+      width: 400px;
+}   
+ .responsive-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+ }
+ .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+ }
