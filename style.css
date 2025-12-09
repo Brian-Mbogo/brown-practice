@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+    }
 .nav-bar{
     background-color: #d4c4b9;
     padding: 10px;
@@ -15,13 +18,26 @@
     position: relative;
       display: inline-table;
       width: 400px;
-}   
+      padding-bottom: .5rem;
+}  
+.hero-section {
+
+  background-image: url('../images/hero.jpg'); /* path to your hero image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ /* full screen height */
+  width: 100%;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+ }
+
  .responsive-image{
     width: 100%;
     height: auto;
     display: flex;
  }
- .text{
+ /*.text{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -29,4 +45,17 @@
     color: white;
     font-size: 24px;
     font-weight: bold;
- }
+ }*/
+ .text{
+    font-size: 4vw;}
+    
+ @media (max-width: 600px) {
+    .text{
+        font-size: 18px;
+    }
+    }
+    @media (min-width: 601px) {
+    .text{
+        font-size: 6px;
+    }
+    }   
