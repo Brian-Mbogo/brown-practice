@@ -1,61 +1,90 @@
-html{
-    scroll-behavior: smooth;
-    }
-.nav-bar{
-    background-color: #d4c4b9;
-    padding: 10px;
-    text-align: right;
+.brown{
+    background-image:url(images/hero.jpg)   ;
+    background-size: cover;
+    background-position: center;
 }
-.footer-down{
-    background-color: #d4c4b9;
+
+
+
+.head{
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    text-transform: uppercase;
+    font: 500 30px/1.5 'Arial', sans-serif  ;
+    color: rgb(0, 0, 0);
+    margin: 20px auto;  
 }
-.hero-section{
-    position: relative;
-      display: inline-table;
-      width: 400px;
-      padding-bottom: .5rem;
-}  
-.hero-section {
+.form{
+    background-color: rgb(189, 216, 216);
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px; 
 
-  background-image: url('../images/hero.jpg'); /* path to your hero image */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
- /* full screen height */
-  width: 100%;
-  color: white;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
- }
+}
 
- .responsive-image{
+.name{
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px ;
+    padding: 1px;
+    color: rgb(15, 49, 201);
+    font-size: 20px;
+       
+
+}
+.email{
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px ;
+    padding: 10px;
+    padding: 1px;
+    color: rgb(15, 49, 201);
+    font-size: 20px;
+}
+.email input, .name input, .pasword input {
     width: 100%;
-    height: auto;
-    display: flex;
- }
- /*.text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
- }*/
- .text{
-    font-size: 4vw;}
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: rgb(15, 49, 201);
+    background-color: rgb(14, 231, 231);
+    border: 1px solid rgb(15, 49, 201);
+    box-shadow: 0 0 10px rgba(14, 3, 3, 0.1);
+    transition: box-shadow 0.3s ease;
     
- @media (max-width: 600px) {
-    .text{
-        font-size: 18px;
-    }
-    }
-    @media (min-width: 601px) {
-    .text{
-        font-size: 6px;
-    }
-    }   
+
+}
+.pasword{
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;  
+    border-radius: 10px ;
+    padding: 1px;  
+    color: rgb(15, 49, 201);
+    font-size: 20px;
+    
+}
+.button{
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 300px;   
+    padding: 10px;  
+    background-color: rgb(142, 137, 153);   
+    color: rgb(15, 49, 201);
+    font-size: 20px; 
+
+}
+.button-position{
+    text-align: center;
+
+}
+.signup{
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+}   
