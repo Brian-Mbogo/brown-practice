@@ -44,7 +44,7 @@
     font-size: 20px;
 }
 .email input, .name input, .pasword input {
-    width: 100%;
+    width: 200px;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -55,8 +55,17 @@
     border: 1px solid rgb(15, 49, 201);
     box-shadow: 0 0 10px rgba(14, 3, 3, 0.1);
     transition: box-shadow 0.3s ease;
-    
+    margin-right: 10px;
+    flex:1;
+    width:auto;
+    gap: 10px  ;
 
+}
+.name, .email, .pasword{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 .pasword{
     text-align: center;
@@ -88,3 +97,126 @@
     margin: 20px auto;
     width: 300px;
 }   
+
+
+.register-form{
+  background-color: rgb(189, 216, 216);
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px; 
+
+
+}
+.sign-up{
+     text-align: center;
+    text-transform: uppercase;
+    font: 500 30px/1.5 'Arial', sans-serif  ;
+    color: rgb(0, 0, 0);
+    margin: 20px auto;  
+}
+
+.first-name{
+   text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px ;
+    padding: 10px;
+    padding: 1px;
+    color: rgb(15, 49, 201);
+    font-size: 20px;
+}
+
+.last-name{
+      text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px ;
+    padding: 10px;
+    padding: 1px;
+    color: rgb(15, 49, 201);
+    font-size: 20px;
+}
+
+.phone-number{
+      text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px ;
+    padding: 10px;
+    padding: 1px;
+    color: rgb(15, 49, 201);
+    font-size: 20px;
+}
+
+.date-of-birth{
+      text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px ;
+    padding: 10px;
+    padding: 1px;
+    color: rgb(15, 49, 201);
+    font-size: 20px;
+}
+ .password{
+      text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px ;
+    padding: 10px;
+    padding: 1px;
+    color: rgb(15, 49, 201);
+    font-size: 20px;
+}
+ 
+
+.first-name input, .last-name input, .email input, .phone-number input,.date-of-birth input,.password input{
+      width:200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: rgb(15, 49, 201);
+    background-color: rgb(14, 231, 231);
+    border: 1px solid rgb(15, 49, 201);
+    box-shadow: 0 0 10px rgba(14, 3, 3, 0.1);
+    transition: box-shadow 0.3s ease;
+    margin-right: 10px;
+    flex:1;
+    width:auto;
+    gap: 10px  ;
+
+}
+.first-name, .last-name, .email, .phone-number, .date-of-birth, .password{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sign-upbutton{
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 300px;   
+    padding: 10px;  
+    background-color: rgb(142, 137, 153);   
+    color: rgb(15, 49, 201);
+    font-size: 20px; 
+
+}
+.sign{
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.login{
+      text-align: center;
+    margin: 20px auto;
+    width: 300px; 
+}
+
+
+    
