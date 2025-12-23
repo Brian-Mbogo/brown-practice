@@ -169,9 +169,19 @@
     color: rgb(15, 49, 201);
     font-size: 20px;
 }
+.confirm-password{
+       text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px ;
+    padding: 10px;
+    padding: 1px;
+    color: rgb(15, 49, 201);
+    font-size: 20px;
+}
  
 
-.first-name input, .last-name input, .email input, .phone-number input,.date-of-birth input,.password input{
+.first-name input, .last-name input, .email input, .phone-number input,.date-of-birth input,.password input,.confirm-password input{
       width:200px;
     padding: 10px;
     border: none;
@@ -189,7 +199,7 @@
     gap: 10px  ;
 
 }
-.first-name, .last-name, .email, .phone-number, .date-of-birth, .password{
+.first-name, .last-name, .email, .phone-number, .date-of-birth, .password ,.confirm-password{
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
